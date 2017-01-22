@@ -11,8 +11,7 @@ JSON对象: var str2 = { “name”: “test”, “sex”: “man” };
 或者 
 var obj = str.parseJSON(); //由JSON字符串转换为JSON对象 
 或者 
-var obj = JSON.parse(str); //由JSON字符串转换为JSON对象
-**
+var obj = JSON.parse(str); //由JSON字符串转换为JSON对象**
 
 然后，就可以这样读取： 
 Alert(obj.name); 
